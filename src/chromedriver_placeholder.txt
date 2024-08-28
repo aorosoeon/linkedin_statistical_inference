@@ -1,0 +1,4 @@
+for selenium to work in this setup you need to download chromedriver (https://sites.google.com/chromium.org/driver/).
+you can store it either in the folder or somewhere in your system, in my case, it's stored in "/usr/bin/chromedriver" on raspberry pi. the later option is recommended.
+potentially, your current version might be outdated someday and this can cause some problems.
+there some implementations on the internet of automatic updater of chromedriver, but for the sake of simplicity i don't use them here.
