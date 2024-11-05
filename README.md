@@ -21,6 +21,6 @@ Below is what the spreadsheet looks like (private data is hidden, of course):
 
 The A/B test was recently completed with the following stats:
 
-<img src="results.png">
+<img src="results.png" width="50%" height="auto">
 
 I will be releasing a Jupyter Notebook with statistical tests soon, but a preliminary analysis confirms the hypothesis that sending a connection request with a message works much better (all statistics and p-values support this and make it statistically significant).
