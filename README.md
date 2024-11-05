@@ -13,10 +13,14 @@ That’s why it should be completely randomized. The architecture below automate
 - checking_accepts.py pulls people who accepted my invite so that we can conduct an A/B test afterward.
 - LinkedIn doesn’t allow more than 700 sent requests, so removing_old_invite_requests.py keeps it under 600.
 
+<img src="architecture.png">
 
+Below is what the spreadsheet looks like (private data is hidden, of course):
 
+<img src="spreadsheet.png">
 
-  Here is what the spreadsheet looks like (private data is hidden, of course):
-- The A/B test was recently completed with the following stats:
+The A/B test was recently completed with the following stats:
 
-I will be releasing a Jupyter Notebook with statistical tests soon, but a preliminary analysis confirms the hypothesis that sending a connection request with a message works much better (all statistics and p-values support this).
+<img src="results.png">
+
+I will be releasing a Jupyter Notebook with statistical tests soon, but a preliminary analysis confirms the hypothesis that sending a connection request with a message works much better (all statistics and p-values support this and make it statistically significant).
